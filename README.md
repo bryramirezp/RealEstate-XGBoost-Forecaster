@@ -8,8 +8,6 @@ Este mini lab implementa un modelo de ML: **Pronóstico Recursivo (Recursive Mul
 
 Predecir 5 años en economía es un horizonte extremadamente largo con alta incertidumbre. Los modelos tradicionales pierden precisión exponencialmente después de 12-24 meses. Para mitigar esto, usamos Pronóstico Recursivo con XGBoost, ya que los datos económicos mensuales son escasos para Deep Learning (e.g., LSTM), y XGBoost maneja mejor relaciones no lineales en datasets pequeños.
 
-
-
 ## 1. Ranking de Variables
 - **Qué muestra:** Importancia de cada feature según XGBoost (F-score). Explica "qué mueve el precio".
 - **Drivers principales:** `IPV_diff_lag3` e `IMACEC_lag1` dominan.
